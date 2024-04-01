@@ -1,7 +1,13 @@
 ﻿using PracticeConsoleApp;
 
 
-//#region SingleTon Design Pattern Demo
+AnagramCheck anagramCheck = new AnagramCheck();
+anagramCheck.IsAnagram("aabbccddg", "bbddccaag");
+//A a = new A();
+//bool res =A.AreEqual<string>("A","A");
+//Console.WriteLine(res);
+
+#region SingleTon Design Pattern Demo
 //Thread t1 = new Thread(() =>
 //{
 //    var instance = UploadService.Instance(1);
@@ -17,7 +23,7 @@
 
 //t1.Join();
 //t2.Join();
-//#endregion
+#endregion
 
 
 //PatternOne.ArrowStar(5);
