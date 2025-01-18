@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PracticeConsoleApp
 {
-    internal class ReverseString
+    public class ReverseString
     {
         public ReverseString()
         {
