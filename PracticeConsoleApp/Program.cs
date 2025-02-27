@@ -1,4 +1,6 @@
 ﻿using PracticeConsoleApp;
+using PracticeConsoleApp.Feb25;
+using PracticeConsoleApp.Jan25;
 using PracticeConsoleApp.LeetCodeQuestions;
 //using static PracticeConsoleApp.ProgramCheckSealedMethod;
 
@@ -15,12 +17,58 @@ using PracticeConsoleApp.LeetCodeQuestions;
 //int[] arrRet = twoSumAnyIndex.TwoSumOfArrays([3,2,4], 6);
 //Console.WriteLine("[{0}]", string.Join(", ", arrRet));
 
-//int res= RomanToInteger.RomanToInt("MCMXCIV");
+//int res = RomanToInteger.RomanToInt("MCMXCIv");
 //Console.WriteLine(res);
 
-string[] strs = { "flower", "flow", "flight" };
-string longestCommonStr = LongestCommonPrefix.Find(strs);
-Console.WriteLine(longestCommonStr);
+//string test = "hello";
+//Console.WriteLine(test.Capitalize());
+
+//ArrayManipulations obj = new ArrayManipulations();
+//int[] revArr = obj.SortArray([1, 4, 3, 5, 6, 2]);
+//Console.WriteLine(string.Join(", ", revArr));
+
+//StringPalindrome obj = new StringPalindrome();
+////bool res = obj.CheckPalindrome("geeksskeeg");
+//bool resAnother = obj.IsPalindrome("geeksskeeg");
+
+//Console.WriteLine(resAnother ? " palindrome" : "not palindrome");
+
+//int num = ReverseInputNumber.ReverserInputNumber(123);
+//Console.WriteLine(num);
+
+//long largeReverse = ReverseInputNumber.ReverserInputNumber(1534236469);
+//Console.WriteLine($"Revrse: {largeReverse}");
+
+//string str = LongestPalindromicSubString.Find("cbbd");
+//Console.WriteLine(str);
+
+//SearchInsertPosition obj = new SearchInsertPosition();
+//int res = obj.SearchInsert([1, 3, 5, 6], 7);
+//Console.WriteLine(res);
+
+//Temp temp = new Temp();
+//bool res = temp.IsPalindrome("bbb");
+//if (res) { }
+//temp.CountOccurence("aaaaaaaaaaa");
+
+RemoveDuplicatesFromString obj = new RemoveDuplicatesFromString();
+string str = obj.ManualRemoval("aabb");
+Console.WriteLine(str);
+
+//obj.ArrayInitializations();
+
+
+
+
+//string[] strs = { "flower", "fow", "flight" };
+//string longestCommonStr = LongestCommonPrefix.Find(strs);
+//Console.WriteLine(longestCommonStr);
+
+//int[] sum = SumArraySumOfAsdjacents.SumAdjacents([-5, 60, -10, 100], 3);
+//Console.WriteLine(string.Join(", \n", sum));
+
+//int maxSumOfAdjacents = HieghestSumOfAdjacentElements.ReturnMaxSumOfAdjacents([-5, 60, -10, 100], 3);
+//Console.WriteLine(maxSumOfAdjacents);
 #endregion
 
 
@@ -43,6 +91,7 @@ Console.WriteLine(longestCommonStr);
 //FindAllSubStrWithoutInBuiltFunction.find_Substring(inputstr, inputstr.Length);
 
 //LongestSubstringWithCount.PrintLongestSubstringWithCount();
+//FindLongestSubstring.PrintLongestSubstring("abbcdd");
 
 //AnagramCheck anagramCheck = new AnagramCheck();
 //anagramCheck.IsAnagram("aabbccddg", "bbddccaag");
@@ -85,7 +134,7 @@ Console.WriteLine(longestCommonStr);
 //Febonacci objFebonacci = new Febonacci();
 //objFebonacci.GenerateFibonacciSeries();
 
-//Factorial objFact= new Factorial();
+//Factorial objFact = new Factorial();
 //objFact.GenerateFactorial();
 
 //BubbleSort objBubbleSort = new BubbleSort();
