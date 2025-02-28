@@ -51,9 +51,11 @@ using PracticeConsoleApp.LeetCodeQuestions;
 //if (res) { }
 //temp.CountOccurence("aaaaaaaaaaa");
 
-RemoveDuplicatesFromString obj = new RemoveDuplicatesFromString();
-string str = obj.ManualRemoval("aabb");
-Console.WriteLine(str);
+//RemoveDuplicatesFromString obj = new RemoveDuplicatesFromString();
+//string str = obj.ManualRemoval("aabb");
+FirstNonRepeatingCharacterInAString obj = new FirstNonRepeatingCharacterInAString();
+char? c = obj.FindUsingDictionary("abzccbpdddda");
+Console.WriteLine(c);
 
 //obj.ArrayInitializations();
 
